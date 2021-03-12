@@ -74,7 +74,8 @@ img {
 /*zona media query Bonus per tablet responsive*/
 @media screen and (min-width: 421px) and (max-width: 768px) {
   .row {
-    width: 650px;
+    max-width: 760px;
+    width: 100%;
     margin-top: 50px;
   }
 
@@ -101,7 +102,7 @@ img {
   }
 
   img {
-    height: 150px;
+    height: 125px;
   }
 }
 /*zona media query smartphone*/
@@ -113,7 +114,8 @@ img {
   }
 
   .row {
-    width: 400px;
+    max-width: 410px;
+    width: 100%;
     margin-top: 0;
     padding: 10px; 
   }
